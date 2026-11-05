@@ -210,7 +210,7 @@ class ThemeManager:
         """
         self.user_data_path = user_data_path
         self.themes_file = user_data_path / "workbench" / "settings" / "themes.json"
-        self.current_theme: Theme = self.PREDEFINED_THEMES["Light (Default)"]
+        self.current_theme: Theme = self.PREDEFINED_THEMES["Dark"]
         self.custom_themes: Dict[str, Theme] = {}
 
         # Global UI font scale (50-200%, default 100%)
